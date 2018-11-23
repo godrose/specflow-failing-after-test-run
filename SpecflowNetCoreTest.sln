@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecflowNetCoreTest", "SpecflowNetCoreTest\SpecflowNetCoreTest.csproj", "{3D4BD354-DAD7-44E1-8553-7F8CAEA465F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecflowNetCoreTest.Steps.Adapters", "SpecflowNetCoreTest.Steps.Adapters\SpecflowNetCoreTest.Steps.Adapters.csproj", "{13B912EA-7D93-4864-AFAD-768FD3B0E0B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D4BD354-DAD7-44E1-8553-7F8CAEA465F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4BD354-DAD7-44E1-8553-7F8CAEA465F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4BD354-DAD7-44E1-8553-7F8CAEA465F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4BD354-DAD7-44E1-8553-7F8CAEA465F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B912EA-7D93-4864-AFAD-768FD3B0E0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B912EA-7D93-4864-AFAD-768FD3B0E0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B912EA-7D93-4864-AFAD-768FD3B0E0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B912EA-7D93-4864-AFAD-768FD3B0E0B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97CB7C00-2D2D-43A7-9F80-092395FF2805}
+	EndGlobalSection
+EndGlobal
