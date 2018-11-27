@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.IO;
 using TechTalk.SpecFlow;
 
 namespace SpecflowNetCoreTest.Steps.Adapters
@@ -9,7 +11,7 @@ namespace SpecflowNetCoreTest.Steps.Adapters
         [AfterTestRun]
         public static void AfterAllScenarios()
         {
-            Console.WriteLine("After test run");
+            File.AppendAllText("hook.log", DateTime.Now.ToString() + typeof(Hook).FullName + Environment.NewLine);
         }
     }
 }
