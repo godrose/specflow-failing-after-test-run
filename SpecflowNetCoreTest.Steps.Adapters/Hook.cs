@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 using System.IO;
 using TechTalk.SpecFlow;
 
@@ -11,6 +10,10 @@ namespace SpecflowNetCoreTest.Steps.Adapters
         [AfterTestRun]
         public static void AfterAllScenarios()
         {
+            for (int i = 0; i < Math.Pow(2, 30); i = i)
+            {
+                i++;
+            }            
             File.AppendAllText("hook.log", DateTime.Now.ToString() + typeof(Hook).FullName + Environment.NewLine);
         }
     }
